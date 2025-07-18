@@ -2,31 +2,65 @@
     html {
         font-size: 15px;
     }
-    #case4-grid{
+
+    #case4-grid {
         width: 100%;
     }
-    .colum-div{
+
+    .colum-div {
         width: 40%;
     }
-    .img-holder{
+
+    .img-holder {
         align-self: center;
     }
+
+    #goto-header {
+        width: 4em;
+        height: 4em;
+        border-radius: 1em;
+    }
+
+
+
 }
 
 @media (max-width:1024px) {
     html {
         font-size: 12px;
     }
+
+    #goto-header {
+        width: 3.6em;
+        height: 3.6em;
+        border-radius: 1em;
+    }
+
 }
 
 @media (max-width:768px) {
     html {
         font-size: 9px;
     }
+
+    #guest-name-box input {
+        flex: 1 1 45%;
+    }
+      #goto-header {
+        width: 3.3em;
+        height: 3.3em;
+        border-radius: 1em;
+    }
+
 }
 
 @media (max-width:480px) {
     html {
         font-size: 6px;
+    }
+       #goto-header {
+        width: 3em;
+        height: 3em;
+        border-radius: 1em;
     }
 }

@@ -7,7 +7,9 @@
     gap: 30px;
     
 }
-
+#emotion-txt-box img{
+    width: 45%;
+}
 #emo-txt-wrapper {
     display: flex;
     flex-direction: column;

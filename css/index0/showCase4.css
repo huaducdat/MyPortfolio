@@ -4,20 +4,20 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 30px;
+    padding: 1em;
     gap: 30px;
 }
 
 #case4-title {
-    width: 1000px;
-    height: 150px;
+    width: 80%;
+    height: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(#59DBE4 0%, #7EA7FF 100%);
-    margin-top: 45px;
-    border-radius: 60px;
-    border: 18px solid #316DEE;
+    margin-top: 1.5em;
+    border-radius: 3em;
+    border: .3em solid #316DEE;
     font-size: 3rem;
     font-weight: bold;
     color: #155175;
