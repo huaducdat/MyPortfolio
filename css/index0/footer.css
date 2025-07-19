@@ -119,8 +119,8 @@ footer {
 /* CUSTOM CHECKBOX */
 #toggle-box input[type="checkbox"] {
     appearance: none;
-    width: 1em;
-    height: 1em;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     border: 2px solid white;
     position: relative;
@@ -133,8 +133,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 0.6em;
-    height: 0.6em;
+    width: 10px;
+    height: 10px;
     background-color: white;
     border-radius: 50%;
 }
