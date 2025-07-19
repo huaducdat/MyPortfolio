@@ -11,7 +11,7 @@ footer {
     box-shadow: 0 -3px 9px black;
 }
 
-/* CONTACT INFO BOX */
+
 #contact-box {
     flex: 1 1 300px;
     background-color: white;
@@ -21,7 +21,15 @@ footer {
     flex-direction: column;
     gap: 24px;
 }
-
+#contact-box p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#contact-box span{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 #contact-box h1 {
     display: flex;
     align-items: center;
@@ -30,7 +38,7 @@ footer {
     color: black;
 }
 
-/* SEND MESSAGE FORM */
+
 #send-message-box {
     flex: 2 1 400px;
     display: flex;
@@ -46,7 +54,7 @@ footer {
     width: 100%;
 }
 
-/* INPUT STYLES */
+
 #send-message-box input,
 #message-input {
     width: 100%;
@@ -73,13 +81,11 @@ footer {
     border-radius: 12px;
 }
 
-/* LABELS */
 #send-message-box label {
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-/* NAME ROW (2 INPUTS) */
 #guest-name-box {
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +98,6 @@ footer {
 }
 
 
-/* TOGGLE SECTION */
 #toggle-box {
     display: flex;
     flex-direction: column;
@@ -116,7 +121,6 @@ footer {
     font-weight: 400;
 }
 
-/* CUSTOM CHECKBOX */
 #toggle-box input[type="checkbox"] {
     appearance: none;
     width: 12px;
@@ -139,7 +143,6 @@ footer {
     border-radius: 50%;
 }
 
-/* SUBMIT BUTTON */
 footer button {
     align-self: center;
     height: 40px;
